@@ -19,12 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
    int currentIndex = 0;
    // final controller = PageController(viewportFraction: 0.8, keepPage: true);
    List<IconData> icons = [    Icons.home,    Icons.favorite,    Icons.all_inbox,Icons.person  ];
-   // int activeIndex =0 ;
-//    void index (int index){
-//      setState(() {
-//        currentIndex=index;
-//      });
-// }
+
 
   @override
   Widget build(BuildContext context) {

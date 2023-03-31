@@ -1,4 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:challenge_ui/constants/constant_image.dart';
 import 'package:flutter/material.dart';
 
 class Carsor_item extends StatefulWidget {
@@ -20,7 +21,7 @@ class Carsor_itemState extends State<Carsor_item> {
       items: [
         Stack(
           children: [
-            Image.network('https://img.freepik.com/free-photo/group-diverse-friends-walking-pass-art-exhibition-placard_53876-15903.jpg?w=1060&t=st=1680128794~exp=1680129394~hmac=dac010c79747e23b60ef8c259f5e6828d901916610002b1423424019b5d87744'),
+            Image.network(CarsorImag),
             Positioned(
               top: 15,
               left: 15,
